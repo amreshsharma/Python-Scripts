@@ -1,6 +1,6 @@
-##  Python - Convert Text to Speech (Audio)
+##Python - Convert Text to Speech (Audio)
 
-#### gTTS (Google Text-to-Speech), a Python library and CLI tool to interface with Google Translate's text-to-speech API. 
+####gTTS (Google Text-to-Speech), a Python library and CLI tool to interface with Google Translate's text-to-speech API. 
 #### Features
 (1) Customizable speech-specific sentence tokenizer that allows for unlimited lengths of text to be read, all while keeping proper intonation, abbreviations, decimals and more;
 (2 )Customizable text pre-processors which can, for example, provide pronunciation corrections;
@@ -14,11 +14,11 @@ pip install gTTS
 ```
 
 ```
-# Import the required module for text 
+#Import the required module for text 
 
 from gtts import gTTS
   
-# text you want to convert to audio add here your text
+#text you want to convert to audio add here your text
 mytext = 'सभी मनुष्यों को गौरव और अधिकारों के विषय में जन्मजात स्वतन्त्रता और समानता प्राप्त हैं!'
  
 # Language in which you want to convert
@@ -32,6 +32,6 @@ txtobj = gTTS(text=mytext, lang=language, slow=False)
 txtobj.save("hindi2.mp3")
  
 ```
-# How to run
+#How to run
 Save this file as e.g  text_to_speech.py and run
 It will create a hindi2.mp3 file. play it to test results
